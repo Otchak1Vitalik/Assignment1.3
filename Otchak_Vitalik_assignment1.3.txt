@@ -1,0 +1,301 @@
+X@DESKTOP-KEKE33E MINGW64 ~
+$ cd /c/Users/user/SoftDevl/Unit02
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ ді
+bash: ді: command not found
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ ls
+question.txt  questions.txt  status.txt/
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ ls -l
+total 2
+-rw-r--r-- 1 X 197121 16 Sep 11 01:30 question.txt
+-rw-r--r-- 1 X 197121 16 Sep 11 01:02 questions.txt
+drwxr-xr-x 1 X 197121  0 Sep 11 01:07 status.txt/
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ vi questions.txt
+
+[1]+  Stopped                 vi questions.txt
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ vi questions.txt
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git status.txt
+git: 'status.txt' is not a git command. See 'git --help'.
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git stayus
+git: 'stayus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git status > status.txt
+bash: status.txt: Is a directory
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ vi status.txt
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ gitt add <file>
+bash: syntax error near unexpected token `newline'
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git status > status.txt
+bash: status.txt: Is a directory
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git add <status.txt>
+bash: syntax error near unexpected token `newline'
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git command -m status.txt
+git: 'command' is not a git command. See 'git --help'.
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git add status.txt
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git commit -m "Hello, world!"
+[master (root-commit) 5b06d92] Hello, world!
+ 2 files changed, 4 insertions(+)
+ create mode 100644 question.txt
+ create mode 100644 questions.txt
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ ls -l
+total 2
+-rw-r--r-- 1 X 197121 16 Sep 11 01:30 question.txt
+-rw-r--r-- 1 X 197121 16 Sep 12 23:22 questions.txt
+drwxr-xr-x 1 X 197121  0 Sep 12 23:30 status.txt/
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ vi questions.txt
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git push status.txt
+fatal: 'status.txt' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git add .
+warning: in the working copy of 'questions.txt', LF will be replaced by CRLF the next time Git touches it
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git push https://github.com/Otchak1Vitalik/Assignment1.3.git
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 283 bytes | 141.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/Otchak1Vitalik/Assignment1.3/pull/new/master
+remote:
+To https://github.com/Otchak1Vitalik/Assignment1.3.git
+ * [new branch]      master -> master
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ vi questions.txt
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git status > status.txt
+bash: status.txt: Is a directory
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git add status.txt
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git commit -m "Hello, team!"
+[master 0e4f740] Hello, team!
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 .questions.txt.swp
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git push https://github.com/RITCroatia-WMCZagreb/unit01-Otchak1Vitalik.git
+remote: Write access to repository not granted.
+fatal: unable to access 'https://github.com/RITCroatia-WMCZagreb/unit01-Otchak1Vitalik.git/': The requested URL returned error: 403
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ ^C
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ mkdir SoftDevI\unit01-hjp3455\Harry
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ mkdir SoftDevI\unit01-hjp3455\Harry.txt
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git status > SoftDevI\unit01-hjp3455\Harry.txt
+bash: SoftDevIunit01-hjp3455Harry.txt: Is a directory
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ touch questions3.txt
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ ls -l
+total 2
+drwxr-xr-x 1 X 197121  0 Sep 13 01:06 SoftDevIunit01-hjp3455Harry.txt/
+-rw-r--r-- 1 X 197121 16 Sep 11 01:30 question.txt
+-rw-r--r-- 1 X 197121 16 Sep 12 23:39 questions.txt
+-rw-r--r-- 1 X 197121  0 Sep 13 01:10 questions3.txt
+drwxr-xr-x 1 X 197121  0 Sep 12 23:30 status.txt/
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ vi question3.txt
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git add  SoftDevI\unit01-hjp3455\Harry.txt
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git commit -m "Hello my frieands!"
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        question3.txt
+        questions3.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ ^C
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git add ^C
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git add question3.txt
+warning: in the working copy of 'question3.txt', LF will be replaced by CRLF the next time Git touches it
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ rm -r questions3
+rm: cannot remove 'questions3': No such file or directory
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git commit -m "Hello my friends"
+[master 887d5cb] Hello my friends
+ 1 file changed, 1 insertion(+)
+ create mode 100644 question3.txt
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git push https://github.com/Otchak1Vitalik/Assignment1.3.git
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 735 bytes | 735.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/Otchak1Vitalik/Assignment1.3.git
+   5b06d92..887d5cb  master -> master
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ cd /c/Users/user/SoftDevl/Unit02/status.txt
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02/status.txt (master)
+$ mv question.txt SoftDevIunit01-hjp3455Harry.txt/
+mv: cannot move 'question.txt' to 'SoftDevIunit01-hjp3455Harry.txt/': No such file or directory
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02/status.txt (master)
+$ mv question.txt SoftDevIunit01-hjp3455Harry.txt
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02/status.txt (master)
+$ cd /c/Users/user/SoftDevl/Unit02
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    question.txt
+        deleted:    question3.txt
+        deleted:    questions.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        SoftDevIunit01-hjp3455Harry.txt/
+        status.txt/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ mkdir scavenger_hunt
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02 (master)
+$ cd /c/Users/user/SoftDevl/Unit02/scavenger_hunt
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02/scavenger_hunt (master)
+$ mkdir Selfies_taken_at_the_following_locations
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02/scavenger_hunt (master)
+$ mkdir Screenshots_of_the_following
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02/scavenger_hunt (master)
+$ cd  /c/Users/user/SoftDevl/Unit02/scavenger_hun/Selfies_taken_at_the_following_locatios
+bash: cd: /c/Users/user/SoftDevl/Unit02/scavenger_hun/Selfies_taken_at_the_following_locatios: No such file or directory
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02/scavenger_hunt (master)
+$ ls -l
+total 4
+drwxr-xr-x 1 X 197121 0 Sep 13 01:49 Screenshots_of_the_following/
+drwxr-xr-x 1 X 197121 0 Sep 13 02:10 Selfies_taken_at_the_following_locations/
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02/scavenger_hunt (master)
+$ git status ^C
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02/scavenger_hunt (master)
+$ ^C
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02/scavenger_hunt (master)
+$ ^C
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02/scavenger_hunt (master)
+$ git status >  Screenshots_of_the_following
+bash: Screenshots_of_the_following: Is a directory
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02/scavenger_hunt (master)
+$ git add  Screenshots_of_the_following
+
+X@DESKTOP-KEKE33E MINGW64 /c/Users/user/SoftDevl/Unit02/scavenger_hunt (master)
+$ git commit -m "Selfies taken at the following locations:
+1. Your instructor's office
+2. The GCCIS Tutoring Center
+3. The Women in Computing (WiC) Space
+4. The Society of Software Engineers (SSE)"
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../question.txt
+        deleted:    ../question3.txt
+        deleted:    ../questions.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../SoftDevIunit01-hjp3455Harry.txt/
+        ./
+        ../status.txt/
+
+no changes added to commit (use "git add" and/or "git commit -a")
